@@ -3,7 +3,6 @@ public class Main {
     static final int GRAM_IN_MILLILITER = 105;
     static final int MONTH_IN_YEAR = 12;
     public static void main(String[] args) {
-
         task1();
         task2();
         task3();
@@ -29,7 +28,6 @@ public class Main {
         System.out.println("Значение переменной f с типом double равно " + f);
     }
     public static void task2() {
-
         System.out.println("Задача 2");
         float a = 27.12F;
         long b = 987_678_965_549L;
@@ -40,7 +38,6 @@ public class Main {
         byte g = 67;
     }
     public static void task3() {
-
         System.out.println("Задача 3");
         int countLp = 23;
         int countAs = 27;
@@ -50,7 +47,6 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + countPaperPerStudent + " листов бумаги");
     }
     public static void task4() {
-
         System.out.println("Задача 4");
         int efficiencyPerMin = 16/2;
         int efficiencyPerTwentyMin = efficiencyPerMin * 20;
@@ -61,10 +57,8 @@ public class Main {
         System.out.println("За сутки машина произвела " + efficiencyPerDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела" + efficiencyPerThreeDay + " штук бутылок");
         System.out.println("За месяц машина произвела" + efficiencyPerMonth + " штук бутылок");
-
     }
     public static void task5() {
-
         System.out.println("Задача 5");
         int sumCount = 120;
         int countWhitePerOffice = 2;
@@ -74,10 +68,8 @@ public class Main {
         int sumCountBrown = countOffice * countBrownPerOffice;
         System.out.println("В школе, где " + countOffice + " классов, нужно " + sumCountWhite + " банок белой краски и "
                 + sumCountBrown + " банок коричневой краски");
-
     }
     public static void task6() {
-
         int countBananas = 5;
         int weightBananasGram = 80;
         int countMilk = 200;
@@ -90,11 +82,8 @@ public class Main {
         int netWeightKg = netWeightGr / GRAM_IN_KILOGRAM;
         System.out.println("Вес завтрака в граммах " + netWeightGr);
         System.out.println("Вес завтрака в килограммах " + netWeightKg);
-
-
     }
     public static void task7() {
-
         System.out.println("Задача 7");
         int sumWeightToLoseKg = 7;
         int firstWeightToLoseGrPerDay = 250;
@@ -103,10 +92,8 @@ public class Main {
         int secondCountDay = (sumWeightToLoseKg * GRAM_IN_KILOGRAM) / secondWeightToLoseGrPerDay;
         System.out.println("Eсли спортсмен будет терять каждый день по 250 грамм потеря 7кг займет " + firstCountDay + " дней");
         System.out.println("Eсли спортсмен будет терять каждый день по 500 грамм потеря 7кг займет " + secondCountDay + " дней");
-
     }
     public static void task8() {
-
         System.out.println("Задача 8");
         float costMashaPerMonth = 67760.0F;
         float costDenisPerMonth = 83690.0F;
